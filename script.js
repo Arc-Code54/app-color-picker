@@ -1,8 +1,8 @@
 document.getElementById("colorInput").addEventListener("input", function(event){
-    // Get the selected colr from input
-    let selectedColor = event.target.value
+    // Get the selected color from input
+    const selectedColor = event.target.value
 
-    // update color texxt
+    // update color text
     document.getElementById("colorCode").textContent = selectedColor
 
     // update background color of display
